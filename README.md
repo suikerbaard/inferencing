@@ -1,6 +1,6 @@
-# Estimating PM2.5 at Held-Out Locations: XGBoost vs. AGNN
+# Inference of PM2.5 at Held-Out Locations: XGBoost vs. AGNN
 
-Code for my MSc thesis on hourly PM2.5 estimation at unmonitored locations, using reference stations, low-cost sensor (LCS) data, and ERA5 / ERA5-Land / EAC4 variables (2021–2024). Both models are evaluated under a leave-one-station-out (LOSO) protocol over 31 stations: train on 2021–2022, validate on 2023, test on the held-out station's 2024 hours.
+Code for my MSc thesis on hourly PM2.5 inferencing at unmonitored locations, using reference stations, low-cost sensor (LCS) data, and ERA5 / ERA5-Land / EAC4 variables (2021–2024). Both models are evaluated under a leave-one-station-out (LOSO) protocol over 31 stations: train on 2021–2022, validate on 2023, test on the held-out station's 2024 hours.
 
 ## Repository layout
 
